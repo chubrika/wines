@@ -1,9 +1,0 @@
-//export { default as Teamplate } from './Teamplate';
-export { default as LoginArea } from './loginArea';
-export { default as GuestHeader } from './guestHeader';
-export { default as MobileHeader } from './MobileHeader';
-export { default as UserProfile } from './UserProfile';
-export { default as SlidingPane } from './ReactSlidingPane/SlidingPanel';
-export { default as AwaitingPackages } from './AwaitingPackages';
-export { default as LoggedTabRoutes } from './LoggedTabRoutes';
-export { default as Footer } from './Footer';

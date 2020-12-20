@@ -1,0 +1,71 @@
+.custom_table {
+    width: 100%;
+    .table_header {
+        border-bottom: 1px solid #000;
+        display: flex;
+        .tbl_th {
+            flex: 1;
+        }
+    }
+    .tbl_body {
+        display: block;
+        .tbl_info_empty {
+            text-align: center;
+            padding: 28px 0px 5px 10px;
+            font-weight: 500;
+            color: #F44336;
+        }
+        .tbl_tr {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #f2f4f5;
+            padding: 10px 0px;
+            cursor: pointer;
+            .tbl_td {
+                flex: 1;
+                position: relative;
+                padding: 0px 5px;
+                .actionButtons {
+                    display: none;
+                    position: absolute;
+                    top: -4.6px;
+                    right: 10px;
+                    .action_button_edit {
+                        background-color: #fff;
+                        cursor: pointer;
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 2px;
+                        border: 1px solid #dde0e2;
+                        text-align: center;
+                        line-height: 30px;
+                        color: #4a7299;
+                    }
+                    .action_button_remove {
+                        background-color: #fff;
+                        cursor: pointer;
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 2px;
+                        border: 1px solid #dde0e2;
+                        text-align: center;
+                        line-height: 30px;
+                        color: #f91100;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .tbl_tr:hover {
+            background-color: #f2f3f8;
+            .actionButtons {
+                display: block;
+            }
+        }
+        .tbl_tr:last-child{
+            border-bottom: 0px solid #f2f4f5;
+        }
+    }
+}
